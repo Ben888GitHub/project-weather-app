@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Font Awesome -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- MDB -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./basicexample.css" />
+		<title>Document</title>
+	</head>
+	<body style="background-color: #4b515d">
+		<section class="vh-100">
+			<div class="container py-5 h-100">
+				<!--  -->
+
+				<!--  -->
+				<div class="row d-flex justify-content-center align-items-center h-100">
+					<div class="col-md-8 col-lg-6 col-xl-4">
+						<div class="input-group" style="align-items: center">
+							<input
+								type="search"
+								class="city-input form-control"
+								placeholder="Search City"
+								aria-label="Search"
+								aria-describedby="search-addon"
+								style="
+									font-size: 20px;
+									border-radius: 8px;
+									height: 40px;
+									background: #000000d0;
+									color: white;
+								"
+							/>
+							<span
+								class="button input-group-text border-0"
+								style="
+									color: white;
+									font-size: 25px;
+									cursor: pointer;
+									background: #7c7c7c2b;
+								"
+								id="search-addon"
+							>
+								<i class="fas fa-search"></i>
+							</span>
+						</div>
+						<br />
+
+						<br />
+						<div
+							class="card"
+							style="color: #4b515d; border-radius: 35px; background: #000000d0"
+						>
+							<div class="card-body p-4">
+								<div class="d-flex">
+									<div class="flex-grow-1">
+										<h4
+											style="color: #f7f7f7; font-weight: 400"
+											class="city"
+										></h4>
+										<img class="country-flag" src="" alt="" />
+									</div>
+
+									<h4
+										style="color: #f7f7f7; font-weight: 400"
+										class="current-time"
+									></h4>
+								</div>
+
+								<div class="d-flex flex-column text-center mt-4 mb-4">
+									<h5
+										class="temp display-4 mb-0 font-weight-bold"
+										style="color: #f7f7f7; cursor: pointer"
+									></h5>
+									<span
+										class="description small"
+										style="color: #868b94; font-size: 25px"
+										>Loading...</span
+									>
+								</div>
+
+								<div class="d-flex align-items-center">
+									<div class="flex-grow-1" style="font-size: 1rem">
+										<div>
+											<i class="fas fa-wind fa-fw" style="color: #868b94"></i>
+											<span style="color: #f7f7f7" class="wind-speed ms-1">
+											</span>
+										</div>
+										<div>
+											<i class="fas fa-tint fa-fw" style="color: #868b94"></i>
+											<span style="color: #f7f7f7" class="humidity ms-1">
+											</span>
+										</div>
+									</div>
+									<div>
+										<img
+											class="weather-icon"
+											src=""
+											alt="WeatherIcon"
+											width="100px"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal"></div>
+		</section>
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+			integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script type="text/javascript" src="./config.js"></script>
+		<script src="./basicexample.js"></script>
+		<!-- MDB -->
+	</body>
+</html>
