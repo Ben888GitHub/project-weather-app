@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "basicexample.js",
 	"scripts": {
-		"deploy": "gh-pages -d ."
+		"deploy": "gh-pages -d dist"
 	},
 	"repository": {
 		"type": "git",
