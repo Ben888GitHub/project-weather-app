@@ -16,7 +16,7 @@
 	"bugs": {
 		"url": "https://github.com/Ben888GitHub/project-weather-app/issues"
 	},
-	"homepage": "https://github.com/Ben888GitHub/simple-weather-app",
+	"homepage": "https://github.com/Ben888GitHub/project-weather-app",
 	"devDependencies": {
 		"gh-pages": "^3.2.3"
 	}
