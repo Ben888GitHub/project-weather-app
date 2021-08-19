@@ -1,0 +1,82 @@
+ Weather App that retrieves the information from the API and displays
+ on the page using Vanilla JS.
+ It also allows Location Search and Filter
+
+ GitHub Link  
+ HTML - https://github.com/DenverCoder1/weather-app-tutorial/blob/main/index.html
+ CSS - https://github.com/DenverCoder1/weather-app-tutorial/blob/main/style.css
+ JS - https://github.com/DenverCoder1/weather-app-tutorial/blob/main/script.js
+
+ Google Fonts
+ https://fonts.googleapis.com/css2?family=Open+Sans&display=swap
+
+ Photos
+ https://source.unsplash.com/
+ https://source.unsplash.com/1600x900/?nature,water - Random Search Term for background images
+
+ Weather API
+ https://openweathermap.org/
+ https://home.openweathermap.org/
+ https://home.openweathermap.org/api_keys
+ https://openweathermap.org/current API Docs for current weather
+ https://openweathermap.org/weather-conditions API Docs for current icon
+ https://openweathermap.org/api/one-call-api API Docs for one call api
+ https://openweathermap.org/forecast16 Daily Weather Forecast
+
+Kelvin to Celcius
+https://discuss.codecademy.com/t/javascript-kelvin-weather/450515
+
+ Current Location
+ https://www.npmjs.com/package/node-geocoder
+ https://betterprogramming.pub/how-to-detect-the-location-of-your-websites-visit or-using-javascript-92f9e91c095f
+
+Similar deeper examples:
+https://mdbootstrap.com/docs/standard/extended/weather/#!
+
+JS Add Event Listener
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+https://www.w3schools.com/jsref/met_document_addeventlistener.asp
+
+For Error 429 request
+https://stackoverflow.com/questions/951021/what-is-the-javascript-version-of-sleep
+Where we use new Promise to setTimeout()
+
+Celcius to Fahrenheit
+https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-11.php
+
+Find Current Time by City Name
+https://stackoverflow.com/questions/51929214/get-current-time-by-city-name
+https://ipgeolocation.io/documentation/timezone-api.html
+
+Solutions for Real-Time Hours & Minutes using setTimeout()
+Desktop -> JavaScript -> Projects -> real-current-hours-minutes
+
+Solutions to use 24 hour time format (only hours and minutes), along with time zone
+var currentHrs = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', hour12: false, timeZone: "Australia/Sydney"})
+console.log(currentHrs)
+
+If Prettier doesn't work on JS 
+https://github.com/microsoft/vscode/issues/108447
+
+Conclusion: 
+Learn by,
+- Reading
+- Identifying
+- Tinkering & Editing
+- Technical Comparison
+- Researching similarities & better approaches
+- Adding new related stuffs
+- Building
+
+1. The js is modifiable to normal approach than objects and
+
+2. Important to decide which functions come first
+
+3. Let's tinker and edit the 3 MD Bootstrap Weather Templates as my project,
+and apply what you've learned from second and first weather project
+
+4. The fetch will be replaced with axios
+
+5. Invalid City will be shown in a bootstrap pop-up modal
+
+6. Add some more weather information to the project
